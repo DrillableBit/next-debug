@@ -44,10 +44,8 @@ function Navbar() {
   };
 
   useEffect(() => {
-    // Add event listener when the component mounts
     window.addEventListener("resize", handleWindowResize);
 
-    // Clean up the event listener when the component unmounts
     return () => {
       window.removeEventListener("resize", handleWindowResize);
     };
