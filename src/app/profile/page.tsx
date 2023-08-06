@@ -12,7 +12,7 @@ async function Page() {
 
   return (
     <>
-      <Layout>
+      {/* <Layout> */}
         <Navbar />
         <div className="text-center">
           <h1 className="text-4xl font-bold">Protected</h1>
@@ -26,7 +26,7 @@ async function Page() {
             Consol log user
           </button>
         </div>
-      </Layout>
+      {/* </Layout> */}
     </>
   );
 }

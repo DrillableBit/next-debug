@@ -4,12 +4,14 @@ import Navbar from '@/components/Navbar';
 
 function Page() {
   return (
-    <Layout>
+    <>
+
       <Navbar/>
       <div className="text-center">
         <h1 className="text-4xl font-bold">Home</h1>
       </div>
-    </Layout>
+
+    </>
   );
 }
 

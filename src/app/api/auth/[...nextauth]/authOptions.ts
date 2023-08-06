@@ -18,7 +18,7 @@ export const authOptions: NextAuthOptions = {
         const user = { id: "1", name: "J Smith", email: "jsmith@example.com" };
         if (!credentials) throw new Error("No username provided");
 
-        if (credentials.username !== null) {
+        if (credentials !== null) {
           console.log("Login succesful");
           return user;
         } else {

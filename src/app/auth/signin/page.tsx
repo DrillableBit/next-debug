@@ -13,9 +13,9 @@ function signin() {
   async function handleLogin() {
     try {
       const result = await signIn("credentials", {
-        username,
-        password,
-        // redirect: false,
+        username: username,
+        password: password,
+        redirect: false,
         // callbackUrl: `${window.location.origin}`,
         }).then((response) => {
           console.log(response)
